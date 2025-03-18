@@ -513,6 +513,9 @@ legend {
 .footer_menu_item {
 	color: #000;
 	font-family: "Space Grotesk", sans-serif;
+	@media (max-width: 480px) {
+		font-size: 15px;
+	}
 }
 
 /* END FOOTER SECTION STYLES */
