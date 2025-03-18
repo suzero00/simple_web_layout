@@ -4,11 +4,19 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./index.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Wix+Madefor+Display:wght@400..800&display=swap"
+			rel="stylesheet"
+		/>
 		<title>Layout of Site</title>
 	</head>
 	<body>
 		<div class="container">
-			<header>
+			<header class="header">
 				<nav class="nav">
 					<span class="nav_brand">Awaken The Ad Titan</span>
 					<ul class="nav_menu">
@@ -28,6 +36,7 @@
 					</span>
 				</div>
 			</section>
+			<div class="mobile_img"></div>
 			<section class="advantages">
 				<div class="qualification">
 					<div class="qual_title">Qualification</div>
@@ -43,26 +52,36 @@
 					</div>
 				</div>
 				<div class="frustration">
-					<div class="frust_title">
-						Face the Frustration: Your <br />
-						Current Advertising Woes
-					</div>
-					<div class="frust_descr">
-						You've been promised a feast of leads, but served <br />
-						only scraps. Freelancers fade away, fading ATM <br />
-						balance, and ad campaigns fizzle out. Exhausting, <br />
-						isn’t it?
+					<div class="frust_wrapper">
+						<div class="frust_img"></div>
+						<div class="frust_text">
+							<div class="frust_title">
+								Face the Frustration: Your Current <br />
+								Advertising Woes
+							</div>
+							<div class="frust_descr">
+								You've been promised a feast of leads, but served <br />
+								only scraps. Freelancers fade away, fading ATM <br />
+								balance, and ad campaigns fizzle out. Exhausting, <br />
+								isn’t it?
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="oasis">
-					<div class="oasis_title">
-						The Oasis of Effective <br />
-						Advertising
-					</div>
-					<div class="oasis_descr">
-						We transform arid analytics into a verdant vista of <br />
-						customer acquisition with our unique, targeted <br />
-						advertising solutions.
+					<div class="oasis_wrapper">
+						<div class="oasis_text">
+							<div class="oasis_title">
+								The Oasis of Effective <br />
+								Advertising
+							</div>
+							<div class="oasis_descr">
+								We transform arid analytics into a verdant vista of <br />
+								customer acquisition with our unique, targeted <br />
+								advertising solutions.
+							</div>
+						</div>
+						<div class="oasis_img"></div>
 					</div>
 				</div>
 				<div class="approach">
@@ -93,12 +112,14 @@
 						<div class="payment_price">FREE</div>
 					</div>
 					<ul class="payment_advantages">
-						<li>Campaign Audit</li>
-						<li>Improvement Plan</li>
-						<li>Ad Spend</li>
-						<li>2 Weeks</li>
+						<li>&#x2713; Campaign Audit</li>
+						<li>&#x2713; Improvement Plan</li>
+						<li>&#x2713; Ad Spend</li>
+						<li>&#x2713; 2 Weeks</li>
 					</ul>
-					<button class="payment_btn">Try Now!</button>
+					<div class="payment_btn_wrapper">
+						<button class="payment_btn">Try Now!</button>
+					</div>
 				</div>
 				<div class="payment_box">
 					<div class="payment_text_wrapper">
@@ -106,12 +127,14 @@
 						<div class="payment_price">$250</div>
 					</div>
 					<ul class="payment_advantages">
-						<li>Ad Execution</li>
-						<li>Weekly Reporting</li>
-						<li>Ad Spend</li>
-						<li>Acceleration</li>
+						<li>&#x2713; Ad Execution</li>
+						<li>&#x2713; Weekly Reporting</li>
+						<li>&#x2713; Ad Spend</li>
+						<li>&#x2713; Acceleration</li>
 					</ul>
-					<button class="payment_btn">Buy Now!</button>
+					<div class="payment_btn_wrapper">
+						<button class="payment_btn">Buy Now!</button>
+					</div>
 				</div>
 				<div class="payment_box">
 					<div class="payment_text_wrapper">
@@ -119,12 +142,14 @@
 						<div class="payment_price">FREE</div>
 					</div>
 					<ul class="payment_advantages">
-						<li>Unlimited Execution</li>
-						<li>Real-time Reporting</li>
-						<li>AI-Driven</li>
-						<li>Ad Optimization</li>
+						<li>&#x2713; Unlimited Execution</li>
+						<li>&#x2713; Real-time Reporting</li>
+						<li>&#x2713; AI-Driven</li>
+						<li>&#x2713; Ad Optimization</li>
 					</ul>
-					<button class="payment_btn">Buy Now!</button>
+					<div class="payment_btn_wrapper">
+						<button class="payment_btn">Buy Now!</button>
+					</div>
 				</div>
 			</section>
 			<section class="act_now">
